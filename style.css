@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-color: darksalmon;
+    font-family: 'Limelight', cursive;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: inherit;
+}
+
+.link {
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.link:hover {
+    background-color: aqua;
+    font-size: 20px;
+    font-family:cursive;
+}
+
+#about {
+    padding: 80px;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
